@@ -1,0 +1,28 @@
+.btn {
+    width: 174px;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: #00285F;
+    border-radius: 5px;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+.btn p {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+    margin-top: 10px;
+    color: #FFF;
+    
+    
+    text-align: center;
+}
+
+.btn:link, .btn:hover, .btn:visited, .btn:active {
+    text-decoration: none;
+}
