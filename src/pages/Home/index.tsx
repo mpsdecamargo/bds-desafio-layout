@@ -23,7 +23,7 @@ const Home = () => {
       <div className="home-card bottom-card">
         <div className="button-container">
           <Link to="/products">
-            <Button />
+            <Button texto={"VER CATÁLOGO"}/>
           </Link>
         </div>
         <div className="bottom-content">

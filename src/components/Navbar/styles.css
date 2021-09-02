@@ -3,8 +3,6 @@
     min-height: 70px;
     background: #F78B00;
     color: #00285F;
-    left: 0px;
-    top: 0px;
 }
 
 .nav-logo-text {
@@ -49,18 +47,6 @@
     font-weight: 700;
 }
 
-@media (min-width: 576px) {
-    .main-nav {
-      padding-left: 88px;
-    }
-}
-
-@media (min-width: 768px) {
-    .main-menu {
-        padding-left: 288px;
-    }
-}
-
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg%27%3E%3Cpath stroke='rgba(0,40,91, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
@@ -69,3 +55,39 @@
     border-color:#F78B00;
     color: #00285F;
   }
+
+@media (min-width: 576px) {
+    .main-nav {
+      padding-left: 88px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-nav {
+        width: auto;
+      }
+
+    .main-menu {
+        padding-left: 200px;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-nav {
+        width: auto;
+      }
+
+    .main-menu {
+        padding-left: 200px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .main-nav {
+        width: auto;
+      }
+
+    .main-menu {
+        padding-left: 200px;
+    }
+}

@@ -1,10 +1,12 @@
 import './styles.css';
 
-const Button = () => {
+type Props = { texto: String };
+
+const Button = ({ texto }: Props) => {
   return (
     <div>
       <button className="btn">
-        <p>VER CATÁLOGO</p>
+        <p>{texto}</p>
       </button>
     </div>
   );

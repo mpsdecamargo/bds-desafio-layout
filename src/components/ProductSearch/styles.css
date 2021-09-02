@@ -1,0 +1,81 @@
+.base-card {
+    background: #EDEDED;
+    border-radius: 10px;
+    height: 86px;
+    margin: 20px 10px 20px 10px;    
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row-reverse; 
+}
+
+.input-container input {
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid;
+    border-color: #EDEDED;
+    width: 200px;
+    height:40px;
+    margin: 20px 0 0 10px;
+}
+
+.search-button-container button{
+    border-radius: 0px 5px 5px 0px;
+    margin: 20px 10px 0 0;
+    padding-top: 10px;
+    height:40px;
+}
+
+@media (min-width: 576px) {
+    .base-card {
+        height: 123px;
+    }
+
+    .input-container input {
+        width: 320px;
+        margin: 40px 0 40px 20px;
+    }
+
+    .search-button-container button{
+        width: 174px;
+        margin: 40px 20px 40px 0;
+        padding-top: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .input-container input {
+        width: 516px;
+        margin: 40px 0 40px 20px;
+    }
+
+    .search-button-container button{
+        width: 174px;
+        margin: 40px 20px 40px 0;
+        padding-top: 10px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .input-container input {
+        width: 584px;
+        margin: 40px 0 40px 97px;
+    }
+
+    .search-button-container button{
+        width: 174px;
+        margin: 40px 97px 40px 0;
+        padding-top: 10px;
+    }
+
+}
+@media (min-width: 1280px) {
+
+    .base-card {
+        margin: 50px 200px 50px 200px;    
+    }
+
+}
